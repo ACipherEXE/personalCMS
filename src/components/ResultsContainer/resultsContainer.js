@@ -15,41 +15,11 @@ const ResultsContainer = ({ listOfData }) => {
           return (
             <tr key={content.token_id}>
               <td>{content.token_id}</td>
-              <td>Content Type</td>
-              <td>{content.enus}</td>
+              <td>{content.contentType}</td>
+              <td>{content.lastChanged}</td>
             </tr>
           );
         })}
-        <tr>
-          <td>Hello World</td>
-          <td>Token</td>
-          <td>March 5 2025</td>
-        </tr>
-        <tr>
-          <td>Developer Terms</td>
-          <td>Token Container</td>
-          <td>March 5 2025</td>
-        </tr>
-        <tr>
-          <td>Integer</td>
-          <td>Token</td>
-          <td>September 20 1998</td>
-        </tr>
-        <tr>
-          <td>Tires</td>
-          <td>Token</td>
-          <td>September 20 1998</td>
-        </tr>
-        <tr>
-          <td>Motor Bushings</td>
-          <td>Token</td>
-          <td>March 14 2004</td>
-        </tr>
-        <tr>
-          <td>Car Parts</td>
-          <td>Token Container</td>
-          <td>March 14 2004</td>
-        </tr>
       </table>
     </header>
   );
