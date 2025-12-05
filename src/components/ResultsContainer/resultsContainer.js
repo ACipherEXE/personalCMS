@@ -13,7 +13,7 @@ const ResultsContainer = ({ listOfData }) => {
         </tr>
         {listOfData.map((content) => {
           return (
-            <tr key={content.token_id}>
+            <tr key={content.id}>
               <td>{content.token_id}</td>
               <td>{content.contentType}</td>
               <td>{content.lastChanged}</td>
