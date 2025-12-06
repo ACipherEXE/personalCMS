@@ -15,6 +15,7 @@ const App = () => (
         <Home path="/" />
         <Profile path="/profile/" user="me" />
         <Profile path="/profile/:user" />
+        <Profile path="/contentEditor/:contentType/:contentId" />
       </Router>
     </main>
   </div>

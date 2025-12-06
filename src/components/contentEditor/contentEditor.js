@@ -1,8 +1,4 @@
-import { h } from "preact";
-import { Link } from "preact-router/match";
-import style from "./style.css";
-import { getTokens } from "../../functions/postgressCalls/postgressCalls";
-const ResultsContainer = ({ listOfData, onRowClick }) => {
+const contentEditor = ({ listOfData, onRowClick }) => {
   return (
     <header class={style.header}>
       <table>
@@ -30,4 +26,4 @@ const ResultsContainer = ({ listOfData, onRowClick }) => {
   );
 };
 
-export default ResultsContainer;
+export default contentEditor;

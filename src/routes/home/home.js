@@ -15,7 +15,10 @@ const Home = () => {
   return (
     <div class={style.home}>
       <Search />
-      <ResultsContainer listOfData={content} />
+      <ResultsContainer
+        listOfData={content}
+        onRowClick={(content) => console.log("content:", content)}
+      />
     </div>
   );
 };
