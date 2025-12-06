@@ -14,8 +14,8 @@ const ResultsContainer = ({ listOfData }) => {
         {listOfData.map((content) => {
           return (
             <tr key={content.id}>
-              <td>{content.token_id}</td>
-              <td>{content.contentType}</td>
+              <td>{content.name}</td>
+              <td>{content.contenttype}</td>
               <td>{content.lastChanged}</td>
             </tr>
           );
